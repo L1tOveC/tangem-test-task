@@ -1,6 +1,6 @@
 import './FooterBanner.css';
-import footerBannerDesktop from '../../../assets/footerBannerDesktop.png';
-import footerBannerMobile from '../../../assets/footerBannerMobile.png';
+import footerBannerDesktop from '/src/assets/footerBannerDesktop.png';
+import footerBannerMobile from '/src/assets/footerBannerMobile.png';
 import { CloseIcon } from '../../../icons/CloseIcon.tsx';
 import { useMediaQuery } from 'react-responsive';
 import {useCallback} from "react";
