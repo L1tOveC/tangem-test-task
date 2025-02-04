@@ -35,6 +35,11 @@ body {
   line-height: 20px;
 }
 
+.App {
+  container-type: inline-size;
+}
+
+
 .text-button {
   color: #0B0B0B;
   text-shadow: 0 0 30px rgba(102, 204, 255, 0.20);

@@ -22,9 +22,10 @@ export const FooterBanner: React.FC<FooterBannerInterface> = ({ onClose }) => {
                 className="footer-banner-image"
                 src={isMobile ? footerBannerMobile : footerBannerDesktop}
                 alt="Footer Banner"
+                aria-hidden="true"
             />
-            <CloseIcon onClick={onClose} className="close-button" />
-            <div onClick={handleClickShop} className="shop-button"></div>
+            <CloseIcon aria-label="Закрыть баннер" onClick={onClose} className="close-button" />
+            <div aria-label="Продолжить покупки" onClick={handleClickShop} className="shop-button"></div>
         </div>
     );
 };
