@@ -1,0 +1,17 @@
+.footer-banner {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    color: white;
+    width: auto;
+    max-width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .footer-banner {
+        width: 100%;
+        max-width: none;
+    }
+}
