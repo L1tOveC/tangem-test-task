@@ -1,8 +1,9 @@
 import './HeaderBanner.css';
 import { DotSeparatorIcon } from "../../../icons/DotSeparatorIcon.tsx";
-import headerBannerDesktop  from '../../../assets/headerBannerDesktop.png'
-import headerBannerTablet from '../../../assets/headerBannerTablet.png'
-import headerBannerMobile from '../../../assets/headerBannerMobile.png'
+import headerBannerMobile from '/src/assets/headerBannerMobile.png';
+import headerBannerTablet from '/src/assets/headerBannerTablet.png';
+import headerBannerDesktop from '/src/assets/headerBannerDesktop.png';
+
 import {MenuIcon} from "../../../icons/MenuIcon.tsx";
 import {useScreenSize} from "../../../hooks/useScreenSize.ts";
 import {CloseIcon} from "../../../icons/CloseIcon.tsx";
